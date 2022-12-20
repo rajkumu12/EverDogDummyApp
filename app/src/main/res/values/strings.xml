@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">EverDoge Wallet</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="gm_frens">Gm Frens ♥</string>
+    <string name="create_wallet">Create Wallet</string>
+    <string name="import_wallet">Import Wallet</string>
+    <string name="connect_wallet">Connect Wallet</string>
+    <string name="support_for_everdoge_wallet_ledger_trezor_and_other_wallets">Support for EverDoge Wallet,ledger,Trezor and other wallets</string>
+    <string name="by_continuing_to_the_app_you_agree_to_these_user_services_agreement_and_privacy_policy">By continuing to the App.you agree to these User Services Agreement and Privacy Policy.</string>
+    <string name="set_password">Set Password</string>
+    <string name="enter_min_8_digit_password">Enter min 8 digit password</string>
+    <string name="authentication_with_touch_id">Authentication with touch Id</string>
+    <string name="continues">Continue</string>
+    <string name="import_wallet_str">Import wallet</string>
+    <string name="enter_recovery_phrase_private_key_naddress_ens_or_bit">Enter Recovery Phrase.Private Key,\nAddress,ENS or bit.</string>
+    <string name="mine">Mine</string>
+    <string name="neww">New</string>
+    <string name="see_all">See All</string>
+    <string name="favorite">Favorite</string>
+    <string name="history">History</string>
+    <string name="leaderboard">LeaderBoard</string>
+    <string name="revoke_gg">Revoke.gg</string>
+    <string name="notable_collections">Notable Collections</string>
+    <string name="valhalla">Valhalla</string>
+    <string name="keepers">Keepers</string>
+    <string name="ranking">Ranking</string>
+    <string name="_0xedad_f7c6">0xedad..f7c6</string>
+    <string name="market">Market</string>
+</resources>

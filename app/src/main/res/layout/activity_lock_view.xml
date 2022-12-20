@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LockViewActivity"
+    android:background="@color/bg">
+
+
+    <ImageView
+        android:id="@+id/icon_logo"
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"
+        android:layout_marginTop="@dimen/_80sdp"/>
+
+    <TextView
+        android:id="@+id/appname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_22sdp"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/icon_logo"
+        android:text="@string/app_name"/>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_16sdp"
+        android:textColor="@color/light_gray"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/appname"
+        android:text="The decentrailized webawaits"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_below="@+id/description"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:padding="@dimen/_8sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:background="@drawable/roundcorener_bg"
+        android:textColorHint="@color/light_gray"
+        android:textColor="@color/white"
+        android:inputType="textPassword"
+        android:hint="Enter password"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_continue"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_below="@+id/password"
+        android:layout_marginHorizontal="@dimen/_18sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:background="@drawable/roundcorener_bg_btn"
+        android:text="Unlock"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14sdp" />
+
+
+    <ImageView
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:padding="@dimen/_6sdp"
+        android:background="#46FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:src="@drawable/ic_baseline_fingerprint_24"
+        android:layout_below="@id/btn_continue"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:textColor="@color/theme"
+        android:textSize="@dimen/_14sdp"
+        android:text="Forgot Password?"/>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_140sdp"
+    android:layout_height="@dimen/_65sdp"
+    android:layout_margin="@dimen/_4sdp"
+    android:background="@drawable/roundcorener_bg"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="@dimen/_36sdp"
+            android:layout_height="@dimen/_36sdp"
+           android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/_4sdp"
+            android:src="@drawable/etheriumicon" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14ssp"
+            android:textColor="@color/white"
+            android:text="ETH"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="@color/light_gray"
+            android:text="Ethereum"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        >
+        <CheckBox
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_24sdp"
+            android:layout_marginRight="@dimen/_12ssp"
+            android:buttonTint="@color/theme"
+            android:layout_gravity="end"
+            android:checked="true"/>
+    </LinearLayout>
+</LinearLayout>
